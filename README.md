@@ -66,5 +66,3 @@ graph TD;
     Interfaz -->|Muestra alerta si hay robots pendientes| Usuario;
 ```
 
-## URL del Repositorio
-📌 [GitHub Repository](https://github.com/tu_usuario/tu_repositorio)
