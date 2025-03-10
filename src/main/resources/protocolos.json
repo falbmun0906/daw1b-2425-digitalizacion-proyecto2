@@ -1,0 +1,62 @@
+[
+  {
+    "fallo": "Sobrecalentamiento",
+    "protocolo": "PROTO-01",
+    "descripcion": "Apagar el robot, medir la temperatura del motor y dejarlo enfriar.",
+    "tiempo_estimado": "15-30 minutos",
+    "herramientas_necesarias": ["Termómetro infrarrojo", "Ventilador portátil"],
+    "acciones": [
+      "Desconectar el robot de la fuente de alimentación.",
+      "Utilizar el termómetro para medir la temperatura del motor.",
+      "Esperar hasta que la temperatura descienda por debajo de 50°C."
+    ]
+  },
+  {
+    "fallo": "Fallo de energía",
+    "protocolo": "PROTO-02",
+    "descripcion": "Verificar las conexiones eléctricas y reiniciar el robot.",
+    "tiempo_estimado": "20 minutos",
+    "herramientas_necesarias": ["Multímetro", "Destornillador"],
+    "acciones": [
+      "Inspeccionar los cables de alimentación.",
+      "Medir el voltaje de entrada con el multímetro.",
+      "Asegurarse de que el robot esté correctamente conectado a la fuente de energía."
+    ]
+  },
+  {
+    "fallo": "Error de comunicación",
+    "protocolo": "PROTO-03",
+    "descripcion": "Diagnosticar problemas en la conexión de red.",
+    "tiempo_estimado": "30 minutos",
+    "herramientas_necesarias": ["Laptop", "Cable Ethernet"],
+    "acciones": [
+      "Probar la conexión con un cable Ethernet directo.",
+      "Reiniciar el módulo de comunicación del robot.",
+      "Revisar el estado de la red local y el router."
+    ]
+  },
+  {
+    "fallo": "Desgaste mecánico",
+    "protocolo": "PROTO-04",
+    "descripcion": "Realizar mantenimiento preventivo y lubricación.",
+    "tiempo_estimado": "45 minutos",
+    "herramientas_necesarias": ["Llave inglesa", "Aceite lubricante"],
+    "acciones": [
+      "Desmontar las partes móviles del robot.",
+      "Limpiar y eliminar residuos de las articulaciones.",
+      "Aplicar lubricante en las áreas desgastadas."
+    ]
+  },
+  {
+    "fallo": "Sensor desconectado",
+    "protocolo": "PROTO-05",
+    "descripcion": "Comprobar el cableado del sensor y restablecer la conexión.",
+    "tiempo_estimado": "15 minutos",
+    "herramientas_necesarias": ["Tester", "Pinzas"],
+    "acciones": [
+      "Identificar el sensor desconectado.",
+      "Verificar la continuidad del cableado.",
+      "Reajustar las conexiones y probar el funcionamiento."
+    ]
+  }
+]

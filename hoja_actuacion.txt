@@ -1,0 +1,95 @@
+Hoja de Actuación
+
+Brazo: Beta-Z-180
+	- Motor: Servo-840 (No requiere actuación)
+	- Motor: PasoAPaso-319 (No requiere actuación)
+	- Sensor: Temperatura (No requiere actuación)
+	- Sensor: Presión
+		Fallo detectado - Protocolo: PROTO-03
+		Descripción: Diagnosticar problemas en la conexión de red.
+		Tiempo estimado: 30 minutos
+		Herramientas necesarias: Laptop, Cable Ethernet
+		Acciones:
+			1. Probar la conexión con un cable Ethernet directo.
+			2. Reiniciar el módulo de comunicación del robot.
+			3. Revisar el estado de la red local y el router.
+	- Sensor: Vibración
+		Fallo detectado - Protocolo: PROTO-03
+		Descripción: Diagnosticar problemas en la conexión de red.
+		Tiempo estimado: 30 minutos
+		Herramientas necesarias: Laptop, Cable Ethernet
+		Acciones:
+			1. Probar la conexión con un cable Ethernet directo.
+			2. Reiniciar el módulo de comunicación del robot.
+			3. Revisar el estado de la red local y el router.
+
+Brazo: Gamma-Z-911
+	- Motor: Servo-471
+		Fallo detectado - Protocolo: PROTO-01
+		Descripción: Apagar el robot, medir la temperatura del motor y dejarlo enfriar.
+		Tiempo estimado: 15-30 minutos
+		Herramientas necesarias: Termómetro infrarrojo, Ventilador portátil
+		Acciones:
+			1. Desconectar el robot de la fuente de alimentación.
+			2. Utilizar el termómetro para medir la temperatura del motor.
+			3. Esperar hasta que la temperatura descienda por debajo de 50°C.
+	- Motor: PasoAPaso-797
+		Fallo detectado - Protocolo: PROTO-01
+		Descripción: Apagar el robot, medir la temperatura del motor y dejarlo enfriar.
+		Tiempo estimado: 15-30 minutos
+		Herramientas necesarias: Termómetro infrarrojo, Ventilador portátil
+		Acciones:
+			1. Desconectar el robot de la fuente de alimentación.
+			2. Utilizar el termómetro para medir la temperatura del motor.
+			3. Esperar hasta que la temperatura descienda por debajo de 50°C.
+	- Sensor: Temperatura
+		Fallo detectado - Protocolo: PROTO-03
+		Descripción: Diagnosticar problemas en la conexión de red.
+		Tiempo estimado: 30 minutos
+		Herramientas necesarias: Laptop, Cable Ethernet
+		Acciones:
+			1. Probar la conexión con un cable Ethernet directo.
+			2. Reiniciar el módulo de comunicación del robot.
+			3. Revisar el estado de la red local y el router.
+	- Sensor: Presión
+		Fallo detectado - Protocolo: PROTO-03
+		Descripción: Diagnosticar problemas en la conexión de red.
+		Tiempo estimado: 30 minutos
+		Herramientas necesarias: Laptop, Cable Ethernet
+		Acciones:
+			1. Probar la conexión con un cable Ethernet directo.
+			2. Reiniciar el módulo de comunicación del robot.
+			3. Revisar el estado de la red local y el router.
+	- Sensor: Vibración
+		Fallo detectado - Protocolo: PROTO-03
+		Descripción: Diagnosticar problemas en la conexión de red.
+		Tiempo estimado: 30 minutos
+		Herramientas necesarias: Laptop, Cable Ethernet
+		Acciones:
+			1. Probar la conexión con un cable Ethernet directo.
+			2. Reiniciar el módulo de comunicación del robot.
+			3. Revisar el estado de la red local y el router.
+
+Brazo: Gamma-Z-713
+	- Motor: Servo-857 (No requiere actuación)
+	- Motor: PasoAPaso-833
+		Fallo detectado - Protocolo: PROTO-01
+		Descripción: Apagar el robot, medir la temperatura del motor y dejarlo enfriar.
+		Tiempo estimado: 15-30 minutos
+		Herramientas necesarias: Termómetro infrarrojo, Ventilador portátil
+		Acciones:
+			1. Desconectar el robot de la fuente de alimentación.
+			2. Utilizar el termómetro para medir la temperatura del motor.
+			3. Esperar hasta que la temperatura descienda por debajo de 50°C.
+	- Sensor: Temperatura (No requiere actuación)
+	- Sensor: Presión (No requiere actuación)
+	- Sensor: Vibración
+		Fallo detectado - Protocolo: PROTO-03
+		Descripción: Diagnosticar problemas en la conexión de red.
+		Tiempo estimado: 30 minutos
+		Herramientas necesarias: Laptop, Cable Ethernet
+		Acciones:
+			1. Probar la conexión con un cable Ethernet directo.
+			2. Reiniciar el módulo de comunicación del robot.
+			3. Revisar el estado de la red local y el router.
+
