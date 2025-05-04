@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "2.0.20"
     kotlin("plugin.serialization") version "1.8.0"
+    id("org.jetbrains.dokka") version "1.8.10"
 }
 
 group = "es.prog2425.u4u5u6libre"
@@ -22,4 +23,8 @@ tasks.test {
 }
 kotlin {
     jvmToolchain(21)
+}
+
+tasks.dokkaHtml {
+    outputDirectory.set(file("docs")) // Aquí se generará la documentación
 }
