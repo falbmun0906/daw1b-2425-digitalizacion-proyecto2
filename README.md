@@ -496,3 +496,5 @@ Este software está licenciado bajo la licencia MIT, permitiendo su libre uso, m
 - Toda la documentación del código está escrita usando KDoc, el estándar de documentación de Kotlin.
 - Se incluye documentación generada automáticamente y accesible desde /docs.
 - El devlog (registro de desarrollo) está disponible en formato Markdown y también publicado progresivamente en LinkedIn, donde se describen los avances, decisiones técnicas y mejoras continuas.
+
+> La documentación generada automáticamente está disponible en la carpeta `docs` de este repositorio. Puedes acceder a ella directamente [aquí](docs/index.html).
