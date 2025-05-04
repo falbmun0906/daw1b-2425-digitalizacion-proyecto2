@@ -1,4 +1,4 @@
-![Título-removebg-preview](https://github.com/user-attachments/assets/8e13c278-aa29-4b4c-a114-228b836d325d)
+![Logo](https://github.com/user-attachments/assets/d9ade3e4-6a34-43e0-af88-d5cb74ddffd0)
 
 # [IR A PARTE 3 (PROYECTO 3)](#proyecto-3-un-código-abierto-para-la-transformación-digital)
 
