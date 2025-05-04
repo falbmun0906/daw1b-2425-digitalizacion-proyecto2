@@ -1,4 +1,6 @@
-# PROPUESTA INICIAL: Sistema de Gestión de Mantenimiento para Brazos Robóticos
+[IR A PROYECTO 3](#proyecto-3-un-código-abierto-para-la-transformación-digital)
+
+# (PARTES 1 Y 2) PROPUESTA INICIAL: Sistema de Gestión de Mantenimiento para Brazos Robóticos
 
 ## Descripción del Proyecto
 
@@ -367,6 +369,23 @@ El análisis de Big Data permitiría descubrir patrones ocultos en el funcionami
 La combinación de Big Data con capacidades de análisis predictivo también podría contribuir a un mejor aprovechamiento de los recursos, ya que se podrían optimizar las decisiones de compra de repuestos y prever la demanda de mantenimiento antes de que se convierta en una interrupción significativa.
 
 # PROYECTO 3: Un código abierto para la transformación digital
+
+## Tabla de contenidos
+
+- [Motivación](#motivación)
+- [Contexto empresarial](#contexto-empresarial)
+- [Objetivos funcionales del software](#objetivos-funcionales-del-software)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Instrucciones de despliegue](#instrucciones-de-despliegue)
+- [Ejemplos de uso](#ejemplos-de-uso)
+- [Demo online (futura)](#demo-online-futura)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Cómo contribuir](#cómo-contribuir)
+- [Licencia](#licencia)
+- [Documentación técnica y devlog](#documentación-técnica-y-devlog)
+- [Contributing.md](CONTRIBUTING.md)
+- [License](LICENSE)
+- [Wiki](WIKI)
 
 ## Motivación
 
