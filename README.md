@@ -383,9 +383,7 @@ La combinación de Big Data con capacidades de análisis predictivo también pod
 - [Cómo contribuir](#cómo-contribuir)
 - [Licencia](#licencia)
 - [Documentación técnica y devlog](#documentación-técnica-y-devlog)
-- [Contributing.md](CONTRIBUTING.md)
-- [License](LICENSE)
-- [Wiki](WIKI)
+- [Wiki](https://github.com/falbmun0906/daw1b-2425-digitalizacion-proyecto2/wiki)
 
 ## Motivación
 
@@ -482,7 +480,7 @@ Actualmente, no hay una demo online disponible. En futuras versiones, se podrá 
 - .github/: (Opcional) Flujos de trabajo para CI/CD.
 
 ## Cómo contribuir
-Si deseas participar en el desarrollo, por favor revisa el archivo CONTRIBUTING.md donde encontrarás:
+Si deseas participar en el desarrollo, por favor revisa el archivo [CONTRIBUTING](CONTRIBUTING.md) donde encontrarás:
 
 - Buenas prácticas de codificación.
 - Estructura de ramas recomendada.
@@ -491,7 +489,7 @@ Si deseas participar en el desarrollo, por favor revisa el archivo CONTRIBUTING.
 
 ## Licencia
 
-Este software está licenciado bajo la licencia MIT, permitiendo su libre uso, modificación y distribución. Consulta el archivo LICENSE para más información.
+Este software está licenciado bajo la licencia MIT, permitiendo su libre uso, modificación y distribución. Consulta el archivo [LICENSE](LICENSE) para más información.
 
 ## Documentación técnica y devlog
 
