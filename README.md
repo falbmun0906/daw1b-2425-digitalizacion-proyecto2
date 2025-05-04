@@ -1,4 +1,6 @@
-[IR A PROYECTO 3](#proyecto-3-un-código-abierto-para-la-transformación-digital)
+![Título-removebg-preview](https://github.com/user-attachments/assets/8e13c278-aa29-4b4c-a114-228b836d325d)
+
+# [IR A PARTE 3 (PROYECTO 3)](#proyecto-3-un-código-abierto-para-la-transformación-digital)
 
 # (PARTES 1 Y 2) PROPUESTA INICIAL: Sistema de Gestión de Mantenimiento para Brazos Robóticos
 
