@@ -365,3 +365,117 @@ Con la implementación de tecnologías de Big Data, el sistema podría aprovecha
 El análisis de Big Data permitiría descubrir patrones ocultos en el funcionamiento de los robots, lo que facilitaría la toma de decisiones basadas en datos más precisos. Por ejemplo, si se identifica que ciertos componentes tienden a fallar después de un número específico de ciclos de operación o bajo ciertas condiciones ambientales, podría adaptar las estrategias de mantenimiento preventivo para maximizar la vida útil de los equipos.
 
 La combinación de Big Data con capacidades de análisis predictivo también podría contribuir a un mejor aprovechamiento de los recursos, ya que se podrían optimizar las decisiones de compra de repuestos y prever la demanda de mantenimiento antes de que se convierta en una interrupción significativa.
+
+# PROYECTO 3: Un código abierto para la transformación digital
+
+## Motivación
+
+Las líneas de producción automatizadas, especialmente aquellas que incorporan brazos robóticos, requieren un mantenimiento preciso y periódico para evitar interrupciones, reducir los costes operativos y extender la vida útil del equipamiento. Este software nace como una solución sencilla y eficaz para pequeñas y medianas empresas industriales que desean digitalizar y automatizar el seguimiento de los mantenimientos técnicos de sus robots, mejorando así la trazabilidad y fiabilidad del proceso.
+
+Este proyecto surge dentro de un proceso de transformación digital, aportando valor al negocio mediante la automatización de tareas manuales, la centralización de información crítica y la mejora de la toma de decisiones operativas.
+
+## Contexto empresarial
+
+**RoboLine S.A.** es una empresa ficticia dedicada a la automatización industrial, con más de 30 brazos robóticos instalados en distintas líneas de montaje. Actualmente, lleva el mantenimiento de sus brazos de forma manual, a través de hojas de cálculo. Esta situación ha generado errores, olvidos y revisiones atrasadas, con consecuencias económicas.
+
+El objetivo estratégico de RoboLine S.A. es incorporar una herramienta de gestión digital para el mantenimiento, de modo que:
+
+- Se garantice el cumplimiento de los ciclos de mantenimiento preventivo.
+- Se reduzcan los tiempos de inactividad por fallos mecánicos.
+- Se mejore el control documental de las revisiones realizadas.
+
+## Objetivos funcionales del software
+
+- Registrar y visualizar todos los brazos robóticos instalados en planta.
+- Introducir la fecha del último mantenimiento de cada robot.
+- Calcular automáticamente la próxima fecha de revisión según un periodo predefinido.
+- Mostrar alertas de mantenimiento próximo o vencido.
+- Exportar información o integrarse en fases futuras con otros sistemas de producción.
+
+## Tecnologías utilizadas
+
+- Kotlin: Lenguaje de programación moderno, conciso y seguro.
+- Gradle: Sistema de construcción del proyecto.
+- KDoc: Para documentar el código fuente.
+- Git y GitHub: Para control de versiones, contribuciones y despliegue.
+- (Opcional) Docker: Para crear contenedores de despliegue si se desea instalar en servidores externos.
+
+## Instrucciones de despliegue
+
+### Requisitos previos
+
+- Tener instalado Java 17 o superior.
+- Tener instalado Gradle o usar el wrapper incluido.
+- Kotlin (compatible con versiones 1.8+).
+- Un entorno de desarrollo como IntelliJ IDEA (recomendado) o Visual Studio Code con soporte para Kotlin.
+
+### Clonar el repositorio
+
+```bash
+git clone https://github.com/falbmun0906/daw1b-2425-digitalizacion-proyecto2.git
+cd daw1b-2425-digitalizacion-proyecto2
+```
+
+Ejecutar la aplicación desde consola
+
+```bash
+./gradlew run
+```
+
+### Ejecutar desde IntelliJ
+
+- Abrir el proyecto desde la carpeta raíz.
+- Asegurarse de tener configurado el JDK correcto.
+- Buscar la clase ``Main.kt``.
+- Ejecutar con botón derecho > Run.
+
+### Despliegue en Docker (opcional)
+
+```bash
+docker build -t robot-maintenance-system .
+docker run -p 8080:8080 robot-maintenance-system
+```
+
+## Ejemplos de uso
+
+1. Registrar un robot nuevo
+Se introducen datos como ID del robot, modelo y fecha de última revisión.
+
+2. Visualizar la lista de robots
+Se muestra una tabla con todos los robots registrados y su próxima revisión calculada.
+
+3. Alertas automáticas
+El sistema marca en rojo aquellos robots cuya revisión ha vencido o está por vencer en menos de 7 días.
+
+4. Mantenimiento completado
+Al completar una revisión, se actualiza la fecha y se recalcula el siguiente mantenimiento.
+
+## Demo online (futura)
+Actualmente, no hay una demo online disponible. En futuras versiones, se podrá desplegar el sistema como aplicación web ligera usando tecnologías como Ktor, Spring Boot o incluso en plataformas de hosting rápido como Render o Railway.
+
+## Estructura del proyecto
+
+- /src: Código fuente principal del sistema.
+- /docs: Documentación técnica y generada automáticamente.
+- README.md: Este archivo con detalles del proyecto.
+- CONTRIBUTING.md: Guía para colaborar.
+- LICENSE: Licencia de código abierto.
+- .github/: (Opcional) Flujos de trabajo para CI/CD.
+
+## Cómo contribuir
+Si deseas participar en el desarrollo, por favor revisa el archivo CONTRIBUTING.md donde encontrarás:
+
+- Buenas prácticas de codificación.
+- Estructura de ramas recomendada.
+- Tipos de contribuciones deseadas (documentación, refactorización, nuevas funciones).
+- Contacto para dudas.
+
+## Licencia
+
+Este software está licenciado bajo la licencia MIT, permitiendo su libre uso, modificación y distribución. Consulta el archivo LICENSE para más información.
+
+## Documentación técnica y devlog
+
+- Toda la documentación del código está escrita usando KDoc, el estándar de documentación de Kotlin.
+- Se incluye documentación generada automáticamente y accesible desde /docs.
+- El devlog (registro de desarrollo) está disponible en formato Markdown y también publicado progresivamente en LinkedIn, donde se describen los avances, decisiones técnicas y mejoras continuas.
